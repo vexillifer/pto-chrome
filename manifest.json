@@ -1,0 +1,22 @@
+// Plain Text Offenders
+// Chrome Extension
+// Written By: Melsa Smith, 2012
+
+{
+  "name": "Plain Text Offenders",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Notifies users when site is a Plain Text Offender",
+  "background": { "scripts": ["popup.js"] },
+  "browser_action": {
+    "default_icon": "PTOGrey16.png"
+  },
+  "permissions": [
+    "tabs", 
+    "http://*/*"
+  ],
+  "icons": { 
+    "16": "PTOGrey16.png",
+    "48": "PTOGrey.png",
+    "128": "PTOGrey.png" }
+}
